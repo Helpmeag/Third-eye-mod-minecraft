@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "thirdeye",
+  "version": "0.1.0",
+  "name": "Third Eye (Rear View)",
+  "description": "Adds a rear-view mini camera for PvP/horror with performance-friendly tricks.",
+  "authors": [
+    "chatgpt"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.thirdeye.ThirdEyeClient"
+    ]
+  },
+  "mixins": [
+    "thirdeye.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric": "*",
+    "minecraft": "~1.20.1"
+  },
+  "contact": {},
+  "license": "MIT"
+}
